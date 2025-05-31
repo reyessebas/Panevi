@@ -1,0 +1,304 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    width: 99.7%;
+  
+  }
+  
+  h1,
+  h2,
+  h3 {
+    color: #2e2e2e;
+  
+  }
+  
+  #titulo {
+    color: #2e2e2e;
+    position: absolute;
+    top: 1px;
+    left: 500px;
+    z-index: 99;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: rgb(8, 8, 8);
+    text-align: center;
+    height: 60px;
+  }
+  
+  nav ul {
+    padding: 20px 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 30px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  h1 {
+    color: #666260;
+  }
+  
+  em {
+    font-style: italic;
+  }
+  
+  audio{
+    margin-left: 40%;
+  }
+  
+  video {
+    width: 45%;
+    margin-left: 40%;
+    position: absolute;
+    top: 154px;
+    left: 95px;
+    z-index: 99;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  
+  #image {
+    width: 13%;
+  }
+  
+  section {
+    width: 18%;
+  
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(179, 233, 186);
+    border-radius: 10px;
+    float: left;
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 1px;
+    margin-bottom: 0.9pc;
+    margin-right: 4.5%;
+    margin-left: 2%;
+  }
+  
+  #section1 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('img/victoria-priessnitz-IPuuhSmsFIc-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 10px #000000;
+    
+  
+  }
+  
+  article {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: white;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  
+  table {
+    width: 1000px;
+  }
+  
+  #buton_em {
+    background-color: #224123;
+    color: rgb(255, 255, 255);
+    padding: 14px 20px;
+    margin: 2px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 15%;
+    margin-left: 23px;
+  }
+  
+  #section2 {
+    background-color: #051409f6;
+    border-radius: 0%;
+    border: 0;
+    width: 1200px;
+    position: relative;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #video1 {
+    width: 500px;
+    height: 100%;
+    background-color: #8f918f;
+    align-items: center;
+    margin-left: 0%;
+    position: absolute;
+    top: 0px;
+    left: 450px;
+    z-index: 99;
+  
+  }
+  #section22{
+    background-color: #cccccc;
+    border-radius: 2%;
+    border: 2px;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  #misi{
+    height: 370px;
+    background-color: #ccf7cd;
+    border-color: #224123;
+  }
+  
+  #fondo {
+    font-family: Arial, sans-serif;
+    width: 92%;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: 100%;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  #form1 {
+    max-width: 320px;
+    margin: 0 auto;
+    height: 335px;
+    width: 450px; 
+    padding: 1em; 
+    background-color: white; 
+  }
+  
+  #form2{
+      margin: 0 auto;
+      padding: 1em; 
+      background-color: white; 
+      width: 29%;
+    }
+    .error {
+        margin-top: -10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        color: red;
+        font-size: 12px;
+    }
+  h2{
+    font-size: 25px;
+  }
+  
+  p{
+    text-align: right;
+    font-size: 13px;
+    color: gray;
+  }
+  
+  input {
+    width: 95%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 30px; 
+  }
+  
+  
+  button {
+    background-color: #134914;
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 75%;
+    border-radius: 30px; 
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  } 
+  
+  .register-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register-container p {
+    font-size: 16px;
+    color: #333;
+}
+
+.register-container a {
+    color: #134914;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-container a:hover {
+    text-decoration: underline;
+}
